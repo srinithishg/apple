@@ -1,0 +1,15 @@
+.row{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline ;
+    background-color: lightgray;
+    /* margin-top: 2px; */
+}
+
+.phone-container {
+    margin: 50px;
+    padding: 50px;
+}

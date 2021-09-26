@@ -1,0 +1,52 @@
+.Navbar{
+    background-color: gray;
+    width:100%;
+    height:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+  }
+  .Navbar .leftSide{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .Navbar .leftSide .links 
+  {
+    max-height: 80px;
+    color: white;
+  }
+  .Navbar .leftSide .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  .Navbar .rightSide{
+     flex: 50%;
+     display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right:25px ;
+    
+    
+  }
+  .rightSide input{
+      border-radius: 4px;
+      width: 220px;
+      height: 30px;
+      padding-left: 15px;
+  }
+  .rightSide button{
+      height: 30px;
+      width: 70px;
+      font-size: 17px;
+  }
+  .Navbar .leftSide .logo{
+      padding-left: 10px;
+      display: flex;
+      width:60% ;
+      height: 60%;
+  }
